@@ -1,0 +1,22 @@
+Ejercicio
+
+1. Crear una carpeta en /work llamada
+`ventas_<siglas>`
+
+2. Cambiar el usuario propietario de la carpeta
+al usuario `nobody` (Pista: chown <user>:<group> <resource>)
+
+3. Cambiar el grupo propietario de la carpeta
+al grupo `ventas`
+
+4. Cambiar los permisos del usuario propietario
+a `---` o `0` (Pista: chmod <mode> <resource>)
+
+5. Cambiar los permisos del grupo propietario
+a `rwx` o `7`
+
+6. Cambiar los permisos de otros usuarios
+a `r--` o `4`
+
+7. Agregar su usuario al grupo `ventas`
+y generar un archivo llamado `hola_<siglas>.txt`
