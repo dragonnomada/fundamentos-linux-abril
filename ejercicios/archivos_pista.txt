@@ -1,4 +1,0 @@
-sudo chown nobody:ventas ventas_xyz
-sudo chmod 074 ventas_xyz
-sudo chmod u=---,g=rwx,o=r-- ventas_xyz
-sudo rm -r /ventas_xyz

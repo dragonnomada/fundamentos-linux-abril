@@ -1,0 +1,9 @@
+Ejercicio e001:
+
+Crea un script llamado `e001_mostrar_archivo.sh`
+
+1. Solicita el nombre de un archivo y guardalo en
+la variable `archivo`
+
+2. Mostrar el estatus del archivo (comando `stat`)
+para el archivo dado
