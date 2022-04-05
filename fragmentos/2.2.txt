@@ -1,0 +1,29 @@
+Ejercicio
+
+Indicar los permisos en su cadena numérica
+de la ruta raíz /
+
+777 /bin
+755 /boot
+755 /dev
+755 /etc
+755 /hme
+755 /home
+777 /lib
+777 /lib32
+777 /lib64
+777 /libx32
+700 /lost+found
+755 /media
+755 /mnt
+755 /opt
+555 /proc
+700 /root
+755 /run
+777 /sbin
+755 /snap
+755 /srv
+555 /sys
+777 /tmp
+755 /usr
+755 /var

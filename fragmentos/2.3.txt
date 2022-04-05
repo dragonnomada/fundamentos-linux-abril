@@ -1,0 +1,5 @@
+r - lectura / abrir el recurso / copiar
+w - escritura / creación / modicación / eliminación / cortar / pegar
+x - ejecutar / abrir el recurso (en la carpeta) / listar recursos (carpeta)
+
+
