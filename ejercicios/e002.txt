@@ -1,0 +1,35 @@
+Ejercicio e002:
+
+Determinar si un entero está en un rango.
+
+1. Lee el entero $x del usuario.
+
+2. Determina si $x está en el rango de [1, 5]
+
+3. Sino, determina si $x está en (5, 10)
+
+4. Sino, determina si $x está en [10, infinito)
+
+5. Sino, imprime que $x no está en los rangos
+
+Nota:
+
+El rango [a, b] significa que a <= $x <= b
+El rango (a, b) significa que a < $x < b
+El rango [a, infinito) significa que a <= $x
+
+Pista: test $a -ge $b | [ $a -ge $b ] | [[ $a -ge $b ]]
+
+	SINTAXIS: Condicional anidada
+
+	if <condicionador 1>
+	then
+		<bloque verdadero 1>
+	[elif <condicionador 2>
+		<bloque verdadero 2]
+	[...]
+	[elif <condicionador n>
+		<bloque verdadero n]
+	[else
+		<bloque falso>]
+	fi
