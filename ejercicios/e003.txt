@@ -1,0 +1,25 @@
+Ejercicio e003:
+
+Generar un menú hasta que la opción sea salir.
+
+1. Determina un ciclo condicional `while` o `until` que imprima
+   un menú con las siguientes opciones, y similar al siguiente:
+
+	Mensaje de Bienvenida
+	----------------------
+	1. Reporte de usuario
+	2. Reporte del sistema
+	3. Obtener la hora
+	4. Crear un respaldo
+	----------------------
+	5. Salir
+
+2. Lee la opción dada por el usuario
+
+3. Según la opción (del 1 al 4) elegida por el usuario
+   imprime un mensaje de que se seleccionó tal opción
+
+4. Repite hasta que la opción sea 5
+
+Nota: Puedes usar `clear` para borrar la pantalla en
+      cada repetición.
