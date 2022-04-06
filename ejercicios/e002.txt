@@ -22,13 +22,12 @@ Pista: test $a -ge $b | [ $a -ge $b ] | [[ $a -ge $b ]]
 
 	SINTAXIS: Condicional anidada
 
-	if <condicionador 1>
-	then
+	if <condicionador 1>; then
 		<bloque verdadero 1>
-	[elif <condicionador 2>
+	[elif <condicionador 2>; then
 		<bloque verdadero 2]
 	[...]
-	[elif <condicionador n>
+	[elif <condicionador n>; then
 		<bloque verdadero n]
 	[else
 		<bloque falso>]
