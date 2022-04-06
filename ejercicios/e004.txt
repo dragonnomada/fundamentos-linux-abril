@@ -1,0 +1,27 @@
+Ejercicio e004:
+
+Crear una función que calcule la suma de
+los primeros `n` números
+
+SALIDA: Cada suma parcial
+RETORNO: la suma total
+
+1. Definir la función `suma_parcial() { ... }`
+
+2. Crea una variable local a la función `local s=0`
+
+3. Crea un iterador `for n in {1..$1}`
+
+4. Actualiza la suma `s=$(($s + $n))`
+
+5. Imprime el número y la suma parcial `echo "$n: $s"`
+
+6. Retorna la suma total `return $s`
+
+7. Guarda la salida al llamar a la función 100
+   `salida=$(suma_parcial 100)`
+
+8. Recupera el retorno en la variable 
+   `retorno=$?`
+
+9. Reporta el valor de la salida y el valor del retorno
