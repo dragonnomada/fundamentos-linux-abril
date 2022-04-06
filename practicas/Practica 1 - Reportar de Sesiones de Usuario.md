@@ -1,40 +1,37 @@
-# Práctica 1
+Práctica 1.
 
-Establecer un modelo de reporte al iniciar sesión de los usuarios
+Ejecutar el script cuándo un usuario inicie sesión
 
-> Paso 1 - Determinar un script para generar reporte
+1. Crear el script `/scripts/s001_checkin_<xyz>.sh`
 
-	--- /work/reportador.sh ---
+	--- /scripts/s001_checkin_<xyz>.sh ---
 
 	#!/bin/bash
 
-	echo "$USER $(id -un) $(date)" >> /work/reportes.txt
+	echo "--- $(date) ---"
+	echo "$USER $(who am i) $(id -un) $SUDO_USER"
 
-> Paso 2 - Construir el archivo de reportes con los permisos correctos
-
-	[#] touch /work/reportes.txt
-
-	[#] chown nobody:gerentes /work/reportes.txt
-
-	[#] chmod 047 /work/reportes.txt
-
-	NOTA: Cambiar el permiso de otros (o) a 0 (`---`)
-	para que nadie pueda leer ni escribir los reportes,
-	pero entonces necesitaría permisos especiales para el script
-
-> Paso 3 - Ejecutar el script al iniciar sesión desde el usuario
+2. Editar el archivo `~<user>/.bashrc`
 
 	--- ~<user>/.bashrc ---
-	
+
 	...
 
-	bash /work/reportador.sh
+	bash /scripts/s001_checkin_<xyz>.sh
 
-> Paso 4 - Proteger el archivo `~<user>/.bashrc`
+3. Iniciar sesión con `<user>`
 
-	[#] chown nobody:sudo ~<user>/.bashrc
+	[$] su - <user>
 
-	[#] chmod 075 ~<user>/.bashrc
+Práctica 2.
 
+Ejecutar el script periodicamente (usando crontab)
 
+Práctica 3.
 
+Ajustar los permisos del script para un 
+usuario del sistema (usuario interno)
+
+	- Establecer permisos de ejecución avanzados 
+	  (sin uso de contraseñas)
+	- A tráves de otro usuario

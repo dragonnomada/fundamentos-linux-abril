@@ -10,7 +10,7 @@ RETORNO: la suma total
 
 2. Crea una variable local a la función `local s=0`
 
-3. Crea un iterador `for n in {1..$1}`
+3. Crea un iterador `for n in $(seq 1 $1)`
 
 4. Actualiza la suma `s=$(($s + $n))`
 
@@ -25,3 +25,9 @@ RETORNO: la suma total
    `retorno=$?`
 
 9. Reporta el valor de la salida y el valor del retorno
+
+NOTA: El retorno esperado es 186 ya que el returno
+      está limitado a 1 byte (0-255).
+      * El retorno está diseñado para devolver
+      un estatus de la función y no datos como tal.
+      
