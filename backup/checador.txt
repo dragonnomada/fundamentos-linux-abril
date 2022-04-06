@@ -1,0 +1,4 @@
+El usuario Pepe ingresó el Tue Apr  5 20:44:55 UTC 2022
+El usuario Ana ingresó el Tue Apr  5 20:44:59 UTC 2022
+El usuario Luisa ingresó el Tue Apr  5 20:45:02 UTC 2022
+El usuario Carlos ingresó el Tue Apr  5 20:45:05 UTC 2022
